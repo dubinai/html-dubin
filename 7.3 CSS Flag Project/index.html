@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Flag Project</title>
+    <style>
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 20px 0;
+        }
+        #box1{
+            background-color: #ce1126;
+            height: 300px;
+            width: 450px;
+            position: relative;
+            border: 5px solid white;
+            margin: 0 auto;
+        }
+        #box2{
+            background-color: #002868;
+            width: 100%;
+            height: 150px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        #box3{
+            background-color: #fff;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .text1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            color: white;
+            font-size: 3rem;
+            font-family: 'Times New Roman', serif;
+            text-align: center;
+            margin: 0;
+            padding: 10px 0 0 0;
+        }
+        .text2{
+            color: black;
+            font-size: 3rem;
+            font-family: 'Times New Roman', serif;
+            text-align: center;
+            line-height: 1.2;
+            margin: 0;
+        }
+        .info{
+            color: white;
+            font-size: 2.5rem;
+            font-family: 'Times New Roman', serif;
+            text-align: center;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <p class="text1">The Flag</p>
+        <div id="box2"></div>
+        <div id="box3">
+            <p class="text2">of<br>Laos</p>
+        </div>
+    </div>
+    <p class="info">杜斌 23110941043</p>
+</body>
+</html>
